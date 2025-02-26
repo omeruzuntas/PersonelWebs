@@ -1,4 +1,5 @@
 import { useLanguage } from '../../context/LanguageContext';
+import profileImage from '../../assets/images/profil.png';
 
 const Hero = () => {
   const { t } = useLanguage();
@@ -37,7 +38,13 @@ const Hero = () => {
 
         <div className="relative">
           <div className="absolute inset-0 bg-[#E8EBFF] dark:bg-gray-800 rounded-3xl -rotate-6"></div>
-          <div className="relative bg-primary-100 dark:bg-gray-700 rounded-3xl w-full h-[600px]"></div>
+          <div className="relative bg-primary-100 dark:bg-gray-700 rounded-3xl w-full h-[600px] overflow-hidden">
+            <img 
+              src={profileImage} 
+              alt="Profile" 
+              className="w-full h-full object-cover object-center"
+            />
+          </div>
         </div>
       </div>
     </section>
