@@ -1,14 +1,19 @@
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import Navigation from './components/Navigation/Navigation';
+import Hero from './components/Hero/Hero';
+import { ThemeProvider } from './context/ThemeContext';
+import { LanguageProvider } from './context/LanguageContext';
 
 function App() {
   return (
-    <>
-      <div>
-      </div>
-      <ToastContainer />
-    </>
-  )
+    <ThemeProvider>
+      <LanguageProvider>
+        <div className="min-h-screen bg-white dark:bg-gray-900">
+          <Navigation />
+          <Hero />
+        </div>
+      </LanguageProvider>
+    </ThemeProvider>
+  );
 }
 
-export default App 
+export default App; 
