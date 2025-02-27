@@ -45,9 +45,12 @@ const Navigation = () => {
             {t('nav.projects')}
           </a>
 
-          <button className="px-6 py-2.5 border border-[#E5E7EB] dark:border-gray-700 text-[#6B7280] dark:text-gray-300 rounded-lg text-base font-medium hover:text-primary-500 hover:border-primary-500 transition-colors">
+          <a 
+            href="mailto:omeruzuntass@gmail.com"
+            className="px-6 py-2.5 border border-[#E5E7EB] dark:border-gray-700 text-[#6B7280] dark:text-gray-300 rounded-lg text-base font-medium hover:text-primary-500 hover:border-primary-500 transition-colors"
+          >
             {t('nav.hireMe')}
-          </button>
+          </a>
         </div>
       </div>
     </nav>

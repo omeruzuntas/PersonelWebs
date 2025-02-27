@@ -53,6 +53,38 @@ export const translations = {
         role: "Preferred Role",
         roleValue: "Frontend, UI"
       }
+    },
+    projects: {
+      title: "Projects",
+      workintech: {
+        title: "Teknolojik Yemekler",
+        description: "A website designed to deliver food to hungry developers at their computers. Created homepage, order form and order confirmation pages for the Teknolojik Yemekler brand.",
+        tech: ["react", "redux", "axios"]
+      },
+      randomJokes: {
+        title: "Personal Website",
+        description: "A modern and responsive personal portfolio website built with React and Tailwind CSS. Features dark/light theme switching, bilingual support (TR/EN), and a clean, minimalist design showcasing projects and skills.",
+        tech: ["react", "tailwind", "javascript"]
+      },
+      journey: {
+        title: "WitFlix",
+        description: "A frontend application for a modern and responsive video streaming platform. Project design offering a Netflix-like user experience with features like movie listings, search, and user authentication.",
+        tech: ["react", "redux", "tailwind"]
+      },
+      links: {
+        github: "Github",
+        viewSite: "View Site"
+      }
+    },
+    footer: {
+      title: "Let's work together on\nyour next product.",
+      copyright: "All rights reserved.",
+      links: {
+        github: "Github",
+        linkedin: "LinkedIn",
+        email: "Email",
+        blog: "Personal Blog"
+      }
     }
   },
   tr: {
@@ -108,6 +140,38 @@ export const translations = {
         educationYear: "Bilgisayar Mühendisliği, 2023",
         role: "Tercih Ettiği Rol",
         roleValue: "Frontend, UI"
+      }
+    },
+    projects: {
+      title: "Projeler",
+      workintech: {
+        title: "Teknolojik Yemekler",
+        description: "Bilgisayar başında karnı acıkan yazılımcılara yiyecek getirmek için tasarlanmış bir web sitesi. Teknolojik Yemekler markasına, Anasayfa, Sipariş Formu ve Sipariş Alındı sayfası oluşturuldu.",
+        tech: ["react", "redux", "axios"]
+      },
+      randomJokes: {
+        title: "Kişisel Web Sitesi",
+        description: "React ve Tailwind CSS ile oluşturulmuş modern ve responsive kişisel portfolyo sitesi. Karanlık/aydınlık tema değiştirme, çift dil desteği (TR/EN) ve projeleri ve yetenekleri sergileyen temiz, minimalist bir tasarım sunuyor.",
+        tech: ["react", "tailwind", "javascript"]
+      },
+      journey: {
+        title: "WitFlix",
+        description: "Modern ve responsive bir video streaming platformunun frontend uygulaması. Netflix benzeri bir kullanıcı deneyimi sunan proje tasarımı.",
+        tech: ["react", "redux", "tailwind"]
+      },
+      links: {
+        github: "Github",
+        viewSite: "Siteyi Görüntüle"
+      }
+    },
+    footer: {
+      title: "Bir sonraki ürününüz için\nbirlikte çalışalım.",
+      copyright: "Tüm hakları saklıdır.",
+      links: {
+        github: "Github",
+        linkedin: "LinkedIn",
+        email: "E-posta",
+        blog: "Kişisel Blog"
       }
     }
   }

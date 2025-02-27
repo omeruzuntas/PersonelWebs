@@ -24,15 +24,28 @@ const Hero = () => {
           </div>
 
           <div className="flex items-center gap-5">
-            <button className="px-10 py-4 bg-primary-500 text-white rounded-lg text-lg font-medium hover:bg-primary-600 transition-colors">
+            <a 
+              href="mailto:omeruzuntass@gmail.com"
+              className="px-10 py-4 bg-primary-500 text-white rounded-lg text-lg font-medium hover:bg-primary-600 transition-colors"
+            >
               {t('hero.buttons.hireMe')}
-            </button>
-            <button className="px-10 py-4 bg-white dark:bg-gray-800 text-[#6B7280] dark:text-gray-300 border border-[#E5E7EB] dark:border-gray-700 rounded-lg text-lg font-medium hover:border-primary-500 hover:text-primary-500 transition-colors">
+            </a>
+            <a 
+              href="https://github.com/omeruzuntas"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-10 py-4 bg-white dark:bg-gray-800 text-[#6B7280] dark:text-gray-300 border border-[#E5E7EB] dark:border-gray-700 rounded-lg text-lg font-medium hover:border-primary-500 hover:text-primary-500 transition-colors"
+            >
               {t('hero.buttons.github')}
-            </button>
-            <button className="px-10 py-4 bg-white dark:bg-gray-800 text-[#6B7280] dark:text-gray-300 border border-[#E5E7EB] dark:border-gray-700 rounded-lg text-lg font-medium hover:border-primary-500 hover:text-primary-500 transition-colors">
+            </a>
+            <a 
+              href="https://www.linkedin.com/in/ömer-nuri-uzuntaş-740b3a2a7/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-10 py-4 bg-white dark:bg-gray-800 text-[#6B7280] dark:text-gray-300 border border-[#E5E7EB] dark:border-gray-700 rounded-lg text-lg font-medium hover:border-primary-500 hover:text-primary-500 transition-colors"
+            >
               {t('hero.buttons.linkedin')}
-            </button>
+            </a>
           </div>
         </div>
 
